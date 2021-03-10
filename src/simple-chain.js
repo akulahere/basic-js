@@ -8,7 +8,6 @@ const chainMaker = {
 
   addLink(value) {
     this.chain.push(value);
-    console.log(this.chain);
     return this;
   },
 
@@ -23,7 +22,6 @@ const chainMaker = {
   },
   reverseChain() {
     this.chain.reverse();
-    console.log(this.chain)
     return this;
   },
   finishChain() {
